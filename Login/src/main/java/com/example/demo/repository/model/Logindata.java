@@ -9,7 +9,7 @@ import lombok.Data;
 @Data
 public class Logindata {
     @Id
-    private String id; // Use String for MongoDB _id
+    private String id;
     private String name;
     private String password;
 }
