@@ -9,9 +9,9 @@ import lombok.Data;
 @Data public class FilterCriteria {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private String CarPrice;
-    private String Brand;
-    private String CustomerRating;
-    private String VehicleType;
+    private String carPrice;
+    private String brand;
+    private String customerRating;
+    private String vehicleType;
 
 }

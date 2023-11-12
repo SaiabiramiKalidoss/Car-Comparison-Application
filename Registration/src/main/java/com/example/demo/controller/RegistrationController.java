@@ -35,9 +35,4 @@ public class RegistrationController {
         registrationService.saveregistrationdata(registration);
     }
 
-    // @GetMapping("/database-info")
-    // public String getDatabaseInfo() {
-    //     String databaseName = mongoTemplate.getDb().getName();
-    //     return "Connected to MongoDB database: " + databaseName;
-    // }
 }

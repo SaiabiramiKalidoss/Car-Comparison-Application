@@ -11,9 +11,9 @@ import lombok.Data;
 @Data public class Registration {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private String Name;
-    private String MailId;
-    private String Password;
-    private String MobileNumber;
+    private String name;
+    private String mailId;
+    private String password;
+    private String mobileNumber;
 
 }

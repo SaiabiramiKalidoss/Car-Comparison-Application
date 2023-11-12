@@ -25,24 +25,4 @@ public class RegistrationService {
     }
 
 
-
-    // public Employee updateEmployee(Long id, Employee updatedEmployee) {
-    //     // Check if the employee exists
-    //     if (!loginRepositorysitory.existsById(id)) {
-    //         // Handle not found scenario
-    //         throw new EmployeeNotFoundException("Employee with ID " + id + " not found");
-    //     }
-        
-    //     // Set the ID of the updated employee to match the existing record
-    //     updatedEmployee.setId(id);
-    //     return loginRepositorysitory.save(updatedEmployee);
-    // }
-
-    // public void deleteEmployee(Long id) {
-    //     if (!loginRepositorysitory.existsById(id)) {
-    //         // Handle not found scenario
-    //         throw new EmployeeNotFoundException("Employee with ID " + id + " not found");
-    //     }
-    //     loginRepositorysitory.deleteById(id);
-    // }
 }

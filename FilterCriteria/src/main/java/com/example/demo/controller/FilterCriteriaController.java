@@ -3,7 +3,6 @@ package com.example.demo.controller;
 import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.data.mongodb.core.MongoTemplate;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
@@ -19,9 +18,7 @@ import com.example.demo.service.FilterCriteriaService;
 
 public class FilterCriteriaController {
 
-    @Autowired
-    MongoTemplate mongoTemplate;
-    //private final EmployeeRepository employeeRepository;
+
     @Autowired
     FilterCriteriaService filtercriteriaservice;
 
@@ -37,9 +34,4 @@ public class FilterCriteriaController {
     }
 
 
-    // @GetMapping("/database-info")
-    // public String getDatabaseInfo() {
-    //     String databaseName = mongoTemplate.getDb().getName();
-    //     return "Connected to MongoDB database: " + databaseName;
-    // }
 }
